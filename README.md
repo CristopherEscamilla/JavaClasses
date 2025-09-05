@@ -27,8 +27,8 @@ Este proyecto contiene ejemplos sencillos en **Java** para practicar el uso de *
    ```bash
    javac -d out src/*.java src/modulos/*.java
 
-   ```bash
+   Para ejecutar Main.java
    java -cp out src.Main
 
-   ```bash
+   Para ejecutar Objetos.java
    java -cp out src.Objetos
