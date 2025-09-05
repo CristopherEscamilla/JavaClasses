@@ -22,7 +22,13 @@ Este proyecto contiene ejemplos sencillos en **Java** para practicar el uso de *
 ---
 
 ## 🛠️ Compilación y ejecución
-1. Compilar todas las clases dentro de la carpeta `src` y mandar los `.class` a la carpeta `out`:  
+1. Compilar todas las clases dentro de la carpeta raiz `JavaClasses` y mandar los `.class` a la carpeta `out`:  
 
    ```bash
    javac -d out src/*.java src/modulos/*.java
+
+   ```bash
+   java -cp out src.Main
+
+   ```bash
+   java -cp out src.Objetos
